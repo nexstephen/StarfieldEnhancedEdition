@@ -39,32 +39,32 @@ Starfield Enhanced Edition aims to provide a more realistic and engaging economi
   
 ## Usage
 To test the initial setup and scripts, use the following console commands in-game:
-	```sh
-	player.additem 05000801
-	```
-	Replace 05000801 with the correct FormID if different.
+```sh
+player.additem 05000801
+```
+Replace 05000801 with the correct FormID if different.
 
 - **Debugging:**
 Ensure Papyrus logging is enabled by adding the following to your StarfieldCustom.ini file:
-	```sh
-	[Papyrus]
-	bEnableLogging=1
-	bEnableTrace=1
-	bLoadDebugInformation=1
-	```
+```sh
+[Papyrus]
+bEnableLogging=1
+bEnableTrace=1
+bLoadDebugInformation=1
+```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate documentation.
 
 Steps to Contribute
 - **Clone the Repository:**
-   ```sh
-   git clone https://github.com/nexstephen/StarfieldEnhancedEdition.git
-   ```
+```sh
+git clone https://github.com/nexstephen/StarfieldEnhancedEdition.git
+```
 - **Install Modding Tools:**
-   ```sh
-   Follow the instructions to install xEdit, Champollion, Caprica, and Notepad++.
-   ```
+```sh
+Follow the instructions to install xEdit, Champollion, Caprica, and Notepad++.
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
