@@ -19,23 +19,19 @@ Version: 0.0.5
 -----------------------------------------------------------------------------------------------
 |  ID   | Date       | Status    | Severity | Description                                     |
 |---__--|------------|-----------|----------|-------------------------------------------------|
-| 00006 | 2024-06-02 |           |          |                                                 |
+| 00006 | 2024-06-02 | Closed    | Minor    | Startup Script not running                      |
 -----------------------------------------------------------------------------------------------
 
 Details:
 -----------------------------------------------------------------------------------------------
 ID: 00006
-Date: 
-Status: 
-Severity: 
-Description: 
-Steps to Reproduce:
-1. 
-2. 
-3. 
-4. 
-Notes: 
-Resolution: TBD
+Date: 2024-06-02
+Status: Open
+Severity: Minor
+Description: SEE_StartupQuest.pex isn't running on game load
+Resolution: Correctly set up the global variables in xEdit, linking them to the properties in 
+   the script, and remove unnecessary debug messages to ensure the initialization script checks 
+   the version correctly.
 -----------------------------------------------------------------------------------------------
 
 
