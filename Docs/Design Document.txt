@@ -1,64 +1,117 @@
-# Starfield Enhanced Edition Design Document
+# Starfield Enhanced Edition Design Document v0.0.4
 
 ## Introduction
-**Starfield Enhanced Edition** aims to create a comprehensive and realistic economic overhaul for Starfield. This mod will integrate dynamic pricing, regional economies, advanced NPC behaviors, faction dynamics, and environmental effects to provide a richer and more immersive gameplay experience. By introducing these elements, the mod will enhance the economic complexity and realism of the game, making player decisions more impactful and engaging.
+Starfield Enhanced Edition is a comprehensive mod aimed at creating a completely realistic economic overhaul for Starfield. This mod will modify various game mechanics to achieve a dynamic and immersive economic system.
 
 ## Goals
-- **Realistic Economy:** Create a dynamic economic system that reflects real-world supply and demand principles.
-- **Immersive Gameplay:** Enhance immersion by integrating advanced NPC behaviors and faction dynamics that react to economic changes.
-- **Environmental Impact:** Implement environmental and seasonal effects that influence resource availability and pricing.
-- **Crafting and Production:** Develop comprehensive crafting and production systems that contribute to the economy.
-- **Player Agency:** Increase player agency by allowing them to influence the economy through their actions and decisions.
+- **Dynamic Pricing:** Implement a system where prices fluctuate based on supply and demand.
+- **Regional Economies:** Create distinct economic regions with unique pricing and availability.
+- **Advanced NPC Behaviors:** Develop merchant AI that adjusts prices based on economic conditions.
+- **Faction Dynamics:** Introduce economic interactions between different factions.
+- **Environmental and Seasonal Effects:** Include weather and seasonal changes that impact the economy.
+- **Crafting and Production Systems:** Expand crafting mechanics to reflect realistic economic principles.
 
-## Core Features
+## Features
+
 ### Dynamic Pricing
-- Implement a system where prices of goods fluctuate based on supply and demand.
-- Allow player actions to influence market prices.
+- **Description:** Implement a system where prices fluctuate based on supply and demand.
+- **Functionality:** 
+  - Prices increase when demand is high and supply is low.
+  - Prices decrease when demand is low and supply is high.
+- **Implementation Strategy:**
+  - Use Papyrus scripts to track the supply and demand of items.
+  - Update item prices periodically based on current supply and demand levels.
+- **Example:**
+  - If a player buys a large quantity of health potions from a merchant, the price of health potions will increase until supply is replenished.
 
 ### Regional Economies
-- Establish regional variations in pricing and resource availability.
-- Develop trade routes that impact the flow of goods between regions.
+- **Description:** Create distinct economic regions with unique pricing and availability.
+- **Functionality:**
+  - Different regions have different base prices for items.
+  - Availability of certain items varies by region.
+- **Implementation Strategy:**
+  - Define economic regions in the game.
+  - Assign base prices and item availability to each region.
+  - Use Papyrus scripts to adjust prices and availability based on the region.
+- **Example:**
+  - Weapons are cheaper in a region with a strong military presence and more expensive in a remote area.
 
 ### Advanced NPC Behaviors
-- Enhance NPC AI to react dynamically to economic conditions.
-- Implement realistic merchant behaviors, including price adjustments and trading decisions.
+- **Description:** Develop merchant AI that adjusts prices based on economic conditions.
+- **Functionality:**
+  - Merchants adjust their prices based on local supply and demand.
+  - Merchants may offer discounts or price hikes based on player reputation and negotiation skills.
+- **Implementation Strategy:**
+  - Use Papyrus scripts to monitor economic conditions and adjust merchant prices accordingly.
+  - Implement AI behaviors that consider player reputation and skills when setting prices.
+- **Example:**
+  - A merchant in a wealthy area may charge higher prices, while a merchant in a poor area may offer discounts to attract customers.
 
 ### Faction Dynamics
-- Develop a system where faction relationships and trade agreements impact the economy.
-- Allow player reputation and actions to influence faction dynamics.
+- **Description:** Introduce economic interactions between different factions.
+- **Functionality:**
+  - Different factions have their own economic systems and interact with each other.
+  - Faction reputation affects trade agreements and economic policies.
+- **Implementation Strategy:**
+  - Define economic behaviors for each faction.
+  - Use Papyrus scripts to handle interactions and trade agreements between factions.
+- **Example:**
+  - A faction that controls a rich resource area may have more economic power and influence trade routes.
 
 ### Environmental and Seasonal Effects
-- Introduce seasonal changes that affect resource production and availability.
-- Implement weather-related events that impact the economy (e.g., droughts, floods).
+- **Description:** Include weather and seasonal changes that impact the economy.
+- **Functionality:**
+  - Weather and seasons affect resource availability and prices.
+  - Events like droughts or floods can impact the economy.
+- **Implementation Strategy:**
+  - Use Papyrus scripts to track weather and seasonal changes.
+  - Adjust resource availability and prices based on environmental conditions.
+- **Example:**
+  - During winter, food prices may rise due to reduced agricultural output.
 
 ### Crafting and Production Systems
-- Expand the crafting system with more recipes and complex requirements.
-- Integrate production units (e.g., factories, workshops) that convert raw materials into finished goods.
+- **Description:** Expand crafting mechanics to reflect realistic economic principles.
+- **Functionality:**
+  - Crafting recipes require realistic amounts of resources.
+  - Production systems reflect real-world supply and demand.
+- **Implementation Strategy:**
+  - Revise crafting recipes to be more realistic.
+  - Use Papyrus scripts to manage production systems and resource allocation.
+- **Example:**
+  - Crafting a sword requires a realistic amount of metal and labor.
 
-## High-Level Mechanics
-- **Interaction of Systems:** The dynamic pricing, regional economies, and advanced NPC behaviors will interact to create a complex and realistic economic system. For example, a drought in one region might increase the price of food, affecting trade routes and NPC behaviors.
-- **Player Influence:** Players can influence the economy by trading, crafting, and engaging in faction activities. Their actions will have tangible impacts on prices, resource availability, and faction dynamics.
-- **Environmental Integration:** Seasonal and environmental effects will add variability and challenge, requiring players to adapt their strategies to changing conditions.
+## Flowcharts and Diagrams
 
-## Initial Concepts
-- **Dynamic Pricing Algorithm:** Develop an algorithm that adjusts prices based on supply and demand metrics.
-- **Regional Economy Map:** Create a map outlining different regions, their resources, and trade routes.
-- **NPC AI Flowchart:** Design a flowchart to illustrate how NPCs will make economic decisions based on the player's actions and environmental conditions.
-- **Faction Dynamics Model:** Draft a model showing how faction relationships and trade agreements will influence the economy.
+### Flowchart for Dynamic Pricing
+- Create a flowchart that outlines the logic for updating item prices based on supply and demand.
+- Include steps for tracking supply and demand, calculating new prices, and updating the game.
 
-## Timeline
-- **Version 0.0.1:** Initial Planning and Scope Definition
-- **Version 0.0.2:** Research and Gathering Information
-- **Version 0.0.3:** Tool Setup and Familiarization
-- **Version 0.0.4:** Detailed Design Document
-- **Version 0.0.5:** Initial Scripting Setup
-- **Version 0.0.6:** Basic Dynamic Pricing Prototype
-- **Version 0.0.7:** Initial Merchant AI Prototype
-- **Version 0.0.8:** Basic Regional Pricing Prototype
-- **Version 0.0.9:** Pre-0.1.0 Integration and Testing
+### Diagram for Regional Economies
+- Create a diagram that shows the different economic regions and their base prices and item availability.
+- Include connections between regions to show trade routes and economic interactions.
 
-## Resources
-- **Tools:** xEdit, Creation Kit, Git, Papyrus scripting language.
-- **References:** Existing economic overhaul mods for Fallout 4, Skyrim, etc.
-- **Community Feedback Channels:** Discord server, Nexus Mods forum thread, Reddit community.
-- **Documentation:** Papyrus scripting documentation, Starfield modding guides, economic theory resources.
+### Flowchart for Merchant AI
+- Create a flowchart that outlines the logic for merchant AI behaviors.
+- Include steps for adjusting prices based on economic conditions and player interactions.
+
+## Development Roadmap
+
+### Phase 1: Initial Implementation (Version 0.1.0 - 0.2.0)
+- Implement core economic systems (dynamic pricing, regional economies).
+- Conduct initial internal testing and iteration.
+
+### Phase 2: Expanded Features (Version 0.3.0 - 0.5.0)
+- Implement advanced NPC behaviors and faction dynamics.
+- Expand crafting and production systems.
+- Conduct internal testing and iteration.
+
+### Phase 3: Final Integration and Testing (Version 0.6.0 - 1.0.0)
+- Integrate all features into a cohesive system.
+- Conduct extensive internal testing and balancing.
+- Prepare for community beta release and gather feedback.
+- Finalize and optimize the mod for the official release.
+
+## Conclusion
+This design document outlines the goals, features, and implementation strategies for the Starfield Enhanced Edition mod. By following the development roadmap and ensuring thorough testing and iteration, we aim to create a dynamic and immersive economic system that enhances the overall gameplay experience in Starfield.
+
+---
