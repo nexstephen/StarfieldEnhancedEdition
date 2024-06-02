@@ -64,10 +64,6 @@ Steps to Contribute
    ```sh
    Follow the instructions to install xEdit, Champollion, Caprica, and Notepad++.
    ```
-- **Load the ESM:**
-   ```sh
-   Place StarfieldEnhancedEdition_Economy.esm and the Scripts folder in your Starfield Data directory.
-   ```
-   
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
