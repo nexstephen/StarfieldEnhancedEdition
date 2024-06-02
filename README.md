@@ -42,7 +42,7 @@ To test the initial setup and scripts, use the following console commands in-gam
 	```sh
 	player.additem 05000801 1
 	Replace 05000801 with the correct FormID if different.
-	```sh
+	sh```
 
 Debugging
 Ensure Papyrus logging is enabled by adding the following to your StarfieldCustom.ini file:
@@ -53,7 +53,7 @@ Ensure Papyrus logging is enabled by adding the following to your StarfieldCusto
 	bEnableLogging=1
 	bEnableTrace=1
 	bLoadDebugInformation=1
-	```sh
+	sh```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate documentation.
@@ -64,18 +64,18 @@ Steps to Contribute
 	Clone Your Fork:
 	```sh
 	git clone https://github.com/yourusername/StarfieldEnhancedEdition.git
-	```sh
+	sh```
 
 	Create a Branch:
 	```sh
 	git checkout -b feature/your-feature-name
-	```sh
+	sh```
 
 	Make Your Changes:
 		Commit your changes and push the branch to your fork.
 		
 	Create a Pull Request:
-	Open a pull request on the original repository.
+		Open a pull request on the original repository.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
