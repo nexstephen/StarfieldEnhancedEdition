@@ -1,0 +1,26 @@
+# Starfield Economy Research Notes
+
+## General Observations
+- The economy in Starfield is static with prices fixed across all regions.
+- Items have set values that do not reflect real-world pricing or rarity.
+
+## Price Fluctuations
+- Prices do not fluctuate with supply and demand.
+
+## Resource Availability
+- Resources vary by planet but lack logical regional differences.
+- Some planets have a mix of resources that do not align with their environment.
+
+## NPC Trade Behaviors
+- NPCs have static inventories with no dynamic changes based on player actions or market conditions.
+- Merchant categories are not diversified enough, leading to unrealistic trading behaviors.
+
+## Regional Differences
+- There are no significant regional economic differences observed.
+- Enemy factions have different equipment, but this does not affect the economy.
+
+## Potential Improvements
+- Introduce dynamic pricing based on supply and demand.
+- Implement regional variations in resource availability and pricing.
+- Enhance NPC trade behaviors to be more realistic.
+- Add a skill tree for economic perks to influence trading.

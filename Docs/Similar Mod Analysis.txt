@@ -1,0 +1,35 @@
+# Similar Mods Analysis
+
+## Fallout 4 - Damn Apocalypse
+**Description:** A modular survival overhaul, including a very in-depth loot and economy overhaul.
+**Key Features:**
+- Location-aware loot distribution.
+- Dynamic and realistic loot scarcity.
+- Integrated crafting and resource management systems.
+
+**Implementation Insights:**
+- Modular approach allows integration with other overhaul ideas.
+- Realistic distribution of items enhances immersion.
+
+## Skyrim - Trade Routes - Regional Economy SE
+**Description:** Adjusts the gold value and merchant supply of various items based on regional supply and demand.
+**Key Features:**
+- Regional variations in item pricing and availability.
+- Dynamic trade routes influenced by player actions and game events.
+- Enhanced merchant inventories and trade systems.
+
+**Implementation Insights:**
+- Utilizes regional data to create a dynamic economic system.
+- Player actions directly influence economic conditions.
+
+## Summary
+**Useful Features:**
+- Dynamic pricing and supply-demand mechanics.
+- Location-aware item distribution.
+- Enhanced NPC and merchant behaviors.
+- Regional economic variations.
+
+**Integration Ideas:**
+- Adapt the dynamic pricing system from Trade Routes to Starfield.
+- Implement location-aware resource distribution similar to Damn Apocalypse.
+- Develop a modular system to allow for future expansions and tweaks.
