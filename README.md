@@ -35,47 +35,39 @@ Starfield Enhanced Edition aims to provide a more realistic and engaging economi
 - **Starfield:** Ensure you have the latest version of the game installed.
 - **Modding Tools:** Install the necessary modding tools (xEdit, Champollion, Caprica, Notepad++).
 - **Version Control:** Set up Git and clone the repository.
-
    
 ## Usage
 To test the initial setup and scripts, use the following console commands in-game:
 	```sh
 	player.additem 05000801 1
 	Replace 05000801 with the correct FormID if different.
-	sh```
+	```
 
-Debugging
+- **Debugging:**
 Ensure Papyrus logging is enabled by adding the following to your StarfieldCustom.ini file:
 	```sh
-	ini
-	Copy code
 	[Papyrus]
 	bEnableLogging=1
 	bEnableTrace=1
 	bLoadDebugInformation=1
-	sh```
+	```
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate documentation.
 
 Steps to Contribute
-	Fork the Repository:
-	Click the "Fork" button on the repository's GitHub page.
-	Clone Your Fork:
-	```sh
-	git clone https://github.com/yourusername/StarfieldEnhancedEdition.git
-	sh```
-
-	Create a Branch:
-	```sh
-	git checkout -b feature/your-feature-name
-	sh```
-
-	Make Your Changes:
-		Commit your changes and push the branch to your fork.
-		
-	Create a Pull Request:
-		Open a pull request on the original repository.
-
+- **Clone the Repository:**
+   ```sh
+   git clone https://github.com/nexstephen/StarfieldEnhancedEdition.git
+   ```
+- **Install Modding Tools:**
+   ```sh
+   Follow the instructions to install xEdit, Champollion, Caprica, and Notepad++.
+   ```
+- **Load the ESM:**
+   ```sh
+   Place StarfieldEnhancedEdition_Economy.esm and the Scripts folder in your Starfield Data directory.
+   ```
+   
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
