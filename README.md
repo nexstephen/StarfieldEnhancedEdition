@@ -35,13 +35,14 @@ Starfield Enhanced Edition aims to provide a more realistic and engaging economi
 - **Starfield:** Ensure you have the latest version of the game installed.
 - **Modding Tools:** Install the necessary modding tools (xEdit, Champollion, Caprica, Notepad++).
 - **Version Control:** Set up Git and clone the repository.
-   
+  
+  
 ## Usage
 To test the initial setup and scripts, use the following console commands in-game:
 	```sh
-	player.additem 05000801 1
-	Replace 05000801 with the correct FormID if different.
+	player.additem 05000801
 	```
+	Replace 05000801 with the correct FormID if different.
 
 - **Debugging:**
 Ensure Papyrus logging is enabled by adding the following to your StarfieldCustom.ini file:
