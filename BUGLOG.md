@@ -12,7 +12,7 @@ Notes:
 Resolution: TBD
 
 Starfield Enhanced Edition Bug Log
-==================================
+```sh
 Date: 2024-06-02
 Version: 0.0.4
 
@@ -90,3 +90,4 @@ Severity: Minor
 Description: Can't get README.md file to display code windows correctly.
 Resolution: Fix your markup language
 -----------------------------------------------------------------------------------------------
+```
