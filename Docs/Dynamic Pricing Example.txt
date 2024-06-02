@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------
+
+[High-Level Planets] -----> [Mid-Level Planets] -----> [Low-Level Planets]
+      |                              |                          |
+      V                              V                          V
+[Advanced Items]             [Balanced Items]              [Basic Items]
+      |                              |                          |
+      V                              V                          V
+[High Prices]                [Moderate Prices]             [Low Prices]
+
+--------------------------------------------------------------------------
+
+[Faction A Planets] <------> [Neutral Planets] <------> [Faction B Planets]
+      |                              |                              |
+      V                              V                              V
+[High Prices for A]         [Variable Prices]             [High Prices for B]
+[High Availability A]      [Mixed Availability]          [High Availability B]

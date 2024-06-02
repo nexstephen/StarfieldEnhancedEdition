@@ -14,7 +14,7 @@ Resolution: TBD
 Starfield Enhanced Edition Bug Log
 ```sh
 Date: 2024-06-02
-Version: 0.0.4
+Version: 0.0.5
 
 -----------------------------------------------------------------------------------------------
 |  ID   | Date       | Status    | Severity | Description                                     |

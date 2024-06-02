@@ -1,0 +1,5 @@
+[Start] -> [Track Supply and Demand]
+          -> [Calculate New Prices]
+              -> [Update Prices]
+                  -> [End]
+				  
