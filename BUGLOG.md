@@ -20,6 +20,7 @@ Version: 0.0.5
 |  ID   | Date       | Status    | Severity | Description                                     |
 |---__--|------------|-----------|----------|-------------------------------------------------|
 | 00006 | 2024-06-02 | Closed    | Minor    | Startup Script not running                      |
+| 00007 | 2024-06-02 | Open      | Minor    | Unable to set supply and demand                 |
 -----------------------------------------------------------------------------------------------
 
 Details:
@@ -32,6 +33,14 @@ Description: SEE_StartupQuest.pex isn't running on game load
 Resolution: Correctly set up the global variables in xEdit, linking them to the properties in 
    the script, and remove unnecessary debug messages to ensure the initialization script checks 
    the version correctly.
+   
+ID: 00007
+Date: 2024-06-02
+Status: Open
+Severity: Minor
+Description: SEE_EconomyVariables.pex isn't running on game load so supply and demand fail to
+   work.
+Resolution: 
 -----------------------------------------------------------------------------------------------
 
 
